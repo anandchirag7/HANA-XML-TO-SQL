@@ -29,8 +29,9 @@ After converting over 100+ views, the tool has demonstrated an impressive accura
 The time taken per view is significantly reduced to just 5 seconds, showcasing the efficiency gains achieved through automation.
 
 How does it Work :
-1. If copying the app folder to you IDE, run the login.py file to start the application and go through the application flow.
-2. In Case you copy the executable folder, just double click on the XmlViewConverter.exe file to run the app.
+1. If copying the app folder to you IDE, open the config.json file and add the parameters for logging in
+   to the hana system, like hostname, username(in case not using sso), password, port and after that run the login.py file to start the application and go through the application flow.
+3. In Case you copy the executable folder, just double click on the XmlViewConverter.exe file to run the app.
 
 v1.0
 1. Fixed the incorrect calculations conversions
