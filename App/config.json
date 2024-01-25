@@ -1,0 +1,38 @@
+{
+	"Environment" : [
+			{"ENVDEV" :"Development",
+			"ENVQA" :"Quality",
+			"ENVTEST" :"Test",
+			"ENVPROD" :"Production"
+			}],
+	"Databases" : [ 		{
+				"DATABASEDEV"  :"NBI",
+				"DATABASEQA"  :"EHC",
+				"DATABASETEST"  :"EHB",
+				"DATABASEPROD"  :"EHP"
+	}],
+	"Hosts" : [ 		{
+				"HOSTDEV"  :"Server hostname",
+				"HOSTQA"  :"Server hostname",
+				"HOSTTEST"  :"Server hostname",
+				"HOSTPROD"  :"Server hostname"
+	}],
+	"Ports" : [ 		{
+				"PORTDEV"  :"port number",
+				"PORTQA"  :"port number",
+				"PORTTEST"  :"port number",
+				"PORTPROD"  :"port number"
+	}],
+	"Users" : [ 		{
+				"USERDEV"  :"username",
+				"USERQA"  :"username",
+				"USERTEST"  :"username",
+				"USERPROD"  :"username"
+	}],
+	"Passwords" : [ 		{
+				"PASSDEV"  :"password for user",
+				"PASSQA"  :"password for user",
+				"PASSTEST"  :"password for user",
+				"PASSPROD"  :"password for user"
+	}]
+}
