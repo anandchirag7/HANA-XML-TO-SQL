@@ -60,8 +60,7 @@ Credits and libraries used :
 1. PysimpleGui
 2. Pandas
 3. hdbcli
-4. pathlib
-5. json
-6. fileinput
-7. xlsxwriter
-8. jinja2
+4. json
+5. fileinput
+6. xlsxwriter
+7. jinja2
