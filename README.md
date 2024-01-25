@@ -28,6 +28,10 @@ Results:
 After converting over 100+ views, the tool has demonstrated an impressive accuracy range of 85-90%.
 The time taken per view is significantly reduced to just 5 seconds, showcasing the efficiency gains achieved through automation.
 
+How does it Work :
+1. If copying the app folder to you IDE, run the login.py file to start the application and go through the application flow.
+2. In Case you copy the executable folder, just double click on the XmlViewConverter.exe file to run the app.
+
 v1.0
 1. Fixed the incorrect calculations conversions
 V2.0 :
