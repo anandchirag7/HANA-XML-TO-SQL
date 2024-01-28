@@ -40,7 +40,7 @@ V2.0 :
 2. fixed bug for schema name not reflecting in the converted sql
 v3.0
 1. Added Conversion of HANA graphical views to Snowflake CTE or SQL views with source convert to Snowflake objects
-2. Added new UI fro source conversion
+2. Added new UI for source conversion
 3. enhancement to filter and calculation conversion
 
 Still to be worked on :
