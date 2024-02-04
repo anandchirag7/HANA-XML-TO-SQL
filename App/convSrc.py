@@ -43,23 +43,6 @@ def progress_bar(key, iterable, *args, title='', **kwargs):
         if not sg.one_line_progress_meter(title, i+1, len(iterable), key, *args, **kwargs):
             break
 
-def custom_meter_example():
-    layout = [
-              [sg.ProgressBar(1, orientation='h', size=(20, 20), key='progress')]]
-    windowcustombar = sg.Window('', layout,no_titlebar=True,grab_anywhere=True,modal=True)
-    progress_bar = windowcustombar['progress']
-    # loop that would normally do something useful
-    for i in range(2000):
-        # check to see if the cancel button was clicked and exit loop if clicked
-        event, values = windowcustombar.read(timeout=0)
-        if event == 'Cancel' or event == None:
-            break
-        # update bar with loop value +1 so that bar eventually reaches the maximum
-        progress_bar.update_bar(i+1, 2000)
-    # done with loop... need to destroy the window as it's still open
-    windowcustombar.close()
-# custom_meter_example()
-
 def show_window(dataSrc,viewName):
     srcList =[]
     srcvList = dataSrc
