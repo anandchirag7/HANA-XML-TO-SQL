@@ -38,10 +38,15 @@ class hanaQry():
         tableDropdown = []
         if inp == 'view':
             sqlSchemaquery = "SELECT DISTINCT PACKAGE_ID FROM \"_SYS_REPO\".\"ACTIVE_OBJECT\" WHERE (lower(PACKAGE_ID) " \
-                             "NOT LIKE 'sap%' AND lower(PACKAGE_ID) NOT LIKE 'public%' AND lower(PACKAGE_ID) NOT LIKE " \
-                             "'system%' AND lower(PACKAGE_ID) NOT LIKE '%.table%'AND lower(PACKAGE_ID) NOT LIKE " \
+                             " NOT LIKE '%.table%'AND lower(PACKAGE_ID) NOT LIKE " \
                              "'%.function%' AND lower(PACKAGE_ID) NOT LIKE '%.procedure%'AND lower(PACKAGE_ID) NOT LIKE " \
                              "'%.service%' ) ORDER BY 1; "
+            
+            #"SELECT DISTINCT PACKAGE_ID FROM \"_SYS_REPO\".\"ACTIVE_OBJECT\" WHERE (lower(PACKAGE_ID) " \
+             #                "NOT LIKE 'sap%' AND lower(PACKAGE_ID) NOT LIKE 'public%' AND lower(PACKAGE_ID) NOT LIKE " \
+              #               "'system%' AND lower(PACKAGE_ID) NOT LIKE '%.table%'AND lower(PACKAGE_ID) NOT LIKE " \
+               #              "'%.function%' AND lower(PACKAGE_ID) NOT LIKE '%.procedure%'AND lower(PACKAGE_ID) NOT LIKE " \
+                #             "'%.service%' ) ORDER BY 1; "
 
             cursor.execute(sqlSchemaquery)
             out = cursor.fetchall()
