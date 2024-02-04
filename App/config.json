@@ -6,10 +6,10 @@
 			"ENVPROD" :"Production"
 			}],
 	"Databases" : [ 		{
-				"DATABASEDEV"  :"NBI",
-				"DATABASEQA"  :"EHC",
-				"DATABASETEST"  :"EHB",
-				"DATABASEPROD"  :"EHP"
+				"DATABASEDEV"  :"db name",
+				"DATABASEQA"  :"db name",
+				"DATABASETEST"  :"db name",
+				"DATABASEPROD"  :"db name"
 	}],
 	"Hosts" : [ 		{
 				"HOSTDEV"  :"Server hostname",
