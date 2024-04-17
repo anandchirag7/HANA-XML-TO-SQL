@@ -1,4 +1,4 @@
-# XTS-XML-To-SQL
+# XML-To-SQL
 Introducing XTS : An Automation Tool for Effortless Conversion of HANA Graphical Views to SQL Queries
 
 Having worked with HANA for nearly eight years, I often found myself grappling with the challenge of converting
@@ -29,8 +29,11 @@ After converting over 100+ views, the tool has demonstrated an impressive accura
 The time taken per view is significantly reduced to just 5 seconds, showcasing the efficiency gains achieved through automation.
 
 How does it Work :
-1. Copy the zip files to your desktop and unzip them. Open the config.json file and add the parameters for logging in to the hana system, like hostname, username(in case not using sso), password, port . Double click on the XmlViewConverter.exe file to run the app.
-
+1. Download 7zip application from google
+2. unzip the file 1 using 7zip and it will unzip all the zip file parts to a single folder
+3. open the config.json in a notepad and add all the required parameter for logging in into HANA like hostname, username(in case not using sso), password, port.
+4. double click the login.exe to run the application
+   
 v1.0
 1. Fixed the incorrect calculations conversions
 V2.0 :
@@ -40,6 +43,9 @@ v3.0
 1. Added Conversion of HANA graphical views to Snowflake CTE or SQL views with source convert to Snowflake objects
 2. Added new UI for source conversion
 3. enhancement to filter and calculation conversion
+v4.0
+1. conversion of if statements to case when but it still requires to modify the case statements to edit the ',' to then and else.
+2. errors caused due to comments or descriptions in the HANA nodes fixed
 
 Still to be worked on :
 1. Currency conversion
