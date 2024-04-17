@@ -1,4 +1,4 @@
-# XML-To-SQL
+# HANA-XML-TO-SQL
 Introducing XTS : An Automation Tool for Effortless Conversion of HANA Graphical Views to SQL Queries
 
 Having worked with HANA for nearly eight years, I often found myself grappling with the challenge of converting
